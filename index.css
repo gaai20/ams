@@ -10,10 +10,13 @@
 
 #row1{
     background: url(wallpaperbetter.com_1024x768.jpg);
-     background-size: 100% auto;
+     background-size: cover;
      height: 800px; 
      background-repeat: no-repeat;
      background-position: center;
      --bs-gutter-x: 0rem;
      
+}
+.font-alt {
+    font-family: 'Sunflower', sans-serif;
 }
