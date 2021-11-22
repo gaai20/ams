@@ -383,3 +383,11 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
     border:solid 8px  purple;
 }
+.end{
+    text-align: center;
+    
+
+}
+#footext{
+    padding-top: 200px;
+}
