@@ -18,3 +18,35 @@ $(document).ready(function(){
     });
 
 });
+
+$(document).ready(function(){
+    $("#ka").mouseenter(function(){
+      var div = $("#sq");
+      
+      div.animate({width: '5%'}, "fast");
+      
+      div.animate({height: '10px'}, "slow");
+
+    });
+    $("#ka").mouseleave(function(){
+        var div = $("#sq");
+        div.animate({height: '6px'}, "fast");
+        div.animate({width: '100%'}, "fast");
+        
+  });
+});
+
+$(document).ready(function(){
+    $("#oo").mouseenter(function(){
+        var div = $("#p1");
+        var div2 = $("#p2");
+        var div3 = $("#p3");
+        var div4 = $("#p4");
+        div.animate({width: '98%'},"slow");
+        div2.animate({width: '84%'}, "slow");
+        div3.animate({width: '88%'}, "slow");
+        div4.animate({width: '98%'}, "slow");
+
+    });
+
+});
